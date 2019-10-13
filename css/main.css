@@ -8,10 +8,6 @@ html {
   box-sizing: inherit;
 }
 
-body {
-  margin: 1.5rem;
-}
-
 img {
   display: inline-block;
   max-width: 25em;
@@ -28,13 +24,14 @@ p {
 }
 
 a {
-  display: inline-block;
+  display: block;
   background-color: #eee9de;
   color: #333;
   padding: 1rem;
   border-radius: 5px;
   text-decoration: none;
   border: 3px solid #666;
+  margin: 1.5rem;
 }
 
 a:hover {
