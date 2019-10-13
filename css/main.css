@@ -9,7 +9,7 @@ html {
 }
 
 img {
-  display: inline-block;
+  display: inline;
   max-width: 25em;
 }
 
@@ -19,15 +19,15 @@ h1 {
 
 p {
   max-width: 25em;
-  display: inline-block;
+  display: block;
   color: #333;
 }
 
 a {
-  display: block;
+  display: inline;
   background-color: #eee9de;
   color: #333;
-  padding: 1rem;
+  padding: .4em .75em .5em;
   border-radius: 5px;
   text-decoration: none;
   border: 3px solid #666;
