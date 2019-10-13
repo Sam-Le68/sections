@@ -9,8 +9,9 @@ html {
 }
 
 img {
-  display: inline;
+  display: inline-block;
   max-width: 25em;
+  padding: 1em;
 }
 
 body {
@@ -22,14 +23,12 @@ h1 {
 }
 
 p {
-  max-width: 25em;
-  display: block;
+  width: 25em;
   color: #333;
   margin: 1.5rem;
 }
 
 a {
-  display: inline;
   background-color: #eee9de;
   color: #333;
   padding: .4em .75em .5em;
