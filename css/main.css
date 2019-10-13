@@ -13,6 +13,10 @@ img {
   max-width: 25em;
 }
 
+body {
+  display: inline-block;
+}
+
 h1 {
   color: #333;
 }
@@ -21,6 +25,7 @@ p {
   max-width: 25em;
   display: block;
   color: #333;
+  margin: 1.5rem;
 }
 
 a {
