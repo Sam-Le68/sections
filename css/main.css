@@ -1,0 +1,43 @@
+html {
+  font-family: 'Lato', sans-serif;
+  background-color: #eee9de;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 1.5rem;
+}
+
+img {
+  display: inline-block;
+  max-width: 25em;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  max-width: 25em;
+  display: inline-block;
+  color: #333;
+}
+
+a {
+  display: inline-block;
+  background-color: #eee9de;
+  color: #333;
+  padding: 1rem;
+  border-radius: 5px;
+  text-decoration: none;
+  border: 3px solid #666;
+}
+
+a:hover {
+  color: white;
+  background-color: #666;
+}
