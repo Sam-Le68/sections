@@ -10,11 +10,11 @@ html {
 
 img {
   display: inline-block;
-  max-width: 25em;
   padding: 1em;
+  text-align: center;
 }
 
-body {
+.side {
   display: inline-block;
 }
 
@@ -23,7 +23,7 @@ h1 {
 }
 
 p {
-  width: 25em;
+  max-width: 25em;
   color: #333;
   margin: 1.5rem;
 }
