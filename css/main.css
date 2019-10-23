@@ -8,12 +8,26 @@ html {
   box-sizing: inherit;
 }
 
-.picture {
+section {
   display: inline-block;
+  text-align: center;
+}
+
+.pic {
+  display: inline-block;
+  text-align: center;
+}
+
+p {
+  display: inline-block;
+  padding: 2em;
 }
 
 .content {
+  text-align: left;
+  margin:1.5rem;
   display: inline-block;
+  max-width: 25em;
 }
 
 a {
