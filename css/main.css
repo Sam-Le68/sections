@@ -10,7 +10,7 @@ html {
 
 section {
   display: inline-block;
-  text-align: center;
+  vertical-align: middle;
 }
 
 img {
@@ -25,12 +25,12 @@ p {
 
 .content {
   text-align: left;
-  margin:1.5rem;
+  margin: 1.5rem;
   display: inline-block;
   max-width: 25em;
 }
 
-a {
+.btn {
   background-color: #eee9de;
   color: #333;
   padding: .4em .75em .5em;
@@ -40,7 +40,7 @@ a {
   margin: 1.5rem;
 }
 
-a:hover {
+.btn:hover {
   color: white;
   background-color: #666;
 }
