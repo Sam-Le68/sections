@@ -30,7 +30,7 @@ p {
   max-width: 25em;
 }
 
-.btn {
+a {
   background-color: #eee9de;
   color: #333;
   padding: .4em .75em .5em;
@@ -40,7 +40,7 @@ p {
   margin: 1.5rem;
 }
 
-.btn:hover {
+as:hover {
   color: white;
   background-color: #666;
 }
