@@ -9,34 +9,7 @@ html {
   box-sizing: inherit;
 }
 
-img {
+.image {
   display: inline-block;
-  text-align: center;
-}
-
-p {
-  display: inline-block;
-  padding: 2em;
-}
-
-div {
-  text-align: left;
-  margin: 1.5rem;
-  display: inline-block;
-  max-width: 25em;
-}
-
-a {
-  background-color: #eee9de;
-  color: #333;
-  padding: .4em .75em .5em;
-  border-radius: 5px;
-  text-decoration: none;
-  border: 3px solid #666;
-  margin: 1.5rem;
-}
-
-a:hover {
-  color: white;
-  background-color: #666;
+  width: 25em;
 }
