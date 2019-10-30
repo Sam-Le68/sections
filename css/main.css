@@ -2,15 +2,11 @@ html {
   font-family: Lato, sans-serif;
   background-color: #eee9de;
   line-height: 1.5;
+  box-sizing: border-box;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
-}
-
-section {
-  display: inline-block;
-  vertical-align: middle;
 }
 
 img {
@@ -23,7 +19,7 @@ p {
   padding: 2em;
 }
 
-.content {
+div {
   text-align: left;
   margin: 1.5rem;
   display: inline-block;
@@ -40,7 +36,7 @@ a {
   margin: 1.5rem;
 }
 
-as:hover {
+a:hover {
   color: white;
   background-color: #666;
 }
