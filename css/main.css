@@ -3,15 +3,19 @@ html {
   background-color: #eee9de;
   line-height: 1.5;
   box-sizing: border-box;
-  background-color: #eee9de;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
 }
 
+body {
+  margin: 0;
+}
+
 section {
   text-align: center;
+  vertical-align: middle;
 }
 
 img {
@@ -23,7 +27,8 @@ img {
   display: inline-block;
   width: 100%;
   max-width: 25em;
-  margin: 1.5rem;
+  padding: 1em;
+  vertical-align: middle;
 }
 
 .info {
@@ -34,11 +39,11 @@ img {
 
 .paragraph {
   display: inline-block;
+  padding: 1em;
   max-width: 25em;
   width: 100%;
   vertical-align: middle;
-  text-align: left;
-  margin: 1.5rem;
+  text-align: lefxt;
 }
 
 .btn {
@@ -48,15 +53,9 @@ img {
   padding: .4em .75em .5em;
   border-radius: 5px;
   border: 3px solid #333;
-  background-color: #eee9de;
 }
 
 .btn a:hover {
   color: #eee9de;
-  background-color: #333;
-}
-
-.btn:hover {
-  border: 3px solid #333;
-  background-color: #333;
+  background-color: #666;
 }
