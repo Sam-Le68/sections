@@ -33,21 +33,16 @@ img {
 
 .info {
   display: inline-block;
-  color: #333;
-  margin: 1.5rem;
-}
-
-.paragraph {
-  display: inline-block;
   padding: 1em;
   max-width: 25em;
   width: 100%;
   vertical-align: middle;
-  text-align: lefxt;
+  text-align: left;
 }
 
 .btn {
   display: inline-block;
+  font-size: 1.125rem;
   color: #333;
   text-decoration: none;
   padding: .4em .75em .5em;
@@ -58,4 +53,8 @@ img {
 .btn a:hover {
   color: #eee9de;
   background-color: #666;
+}
+
+h2, p {
+  margin: 0 0 1.5rem;
 }
